@@ -1,0 +1,29 @@
+{
+  "name": "express-vue-mongodb",
+  "version": "1.0.0",
+  "description": "A basic application using express server framework, Vue and Mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Segmentree/Express-Vue-Mongodb.git"
+  },
+  "author": "Segmentree",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Segmentree/Express-Vue-Mongodb/issues"
+  },
+  "homepage": "https://github.com/Segmentree/Express-Vue-Mongodb#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongodb": "^4.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
